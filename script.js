@@ -166,7 +166,7 @@ function playGame(){
     let computerScore = 0;
     let playerScore = 0;
     // Alert to greet the user
-    alert("Hi! Let's play rock paper and scissors\nBest of 5! But you can leave in between rounds if you want!");
+    alert("Hi! Let's play rock paper and scissors\nBest of 5!");
     rockPaperScissors(computerScore,playerScore);
 }
 
