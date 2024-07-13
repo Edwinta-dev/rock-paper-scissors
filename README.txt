@@ -1,0 +1,2 @@
+- This is a repo for practicing Javascript
+- ODIN PROJECT assignment to create a game of Rock Paper Scissors with Javascript
