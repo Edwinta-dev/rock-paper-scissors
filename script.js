@@ -60,7 +60,7 @@ function winDecider( playerChoice, computerChoice ){
     return roundResult;
 }
 
-//Next round function prompts user if they would like to continue with another round
+/*Next round function prompts user if they would like to continue with another round
 function nextRound(roundResult,computerScore,playerScore){
     // Prompt user
     let roundStarter = prompt("Would you like to start another round?\nEnter 1 or Yes to continue\nPress any other button to exit");
@@ -75,7 +75,7 @@ function nextRound(roundResult,computerScore,playerScore){
         // Let user see the results before ending 
         alert(`FINAL RESULTS\nPlayer score: ${playerScore} | Computer Score ${computerScore}`)
     }
-}
+}*/
 
 
 // ScoreCounter function that computes the score of every round
@@ -147,9 +147,14 @@ function rockPaperScissors(computerScore,playerScore){
         }else{      //End the game after the round
             alert("Goodbye");
         }
-    }else{
+    }
+    else{
+        /* Commented out for smoother gameplay if planning to implement nextRound function need to delete rockPaperScissors below
         // Checking if user wants to play another round
         nextRound(roundResult,computerScore,playerScore);
+        */
+        // Start a new round
+        rockPaperScissors(computerScore,playerScore);
     }
             
 } 
