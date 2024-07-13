@@ -133,7 +133,7 @@ function rockPaperScissors(computerScore,playerScore){
     // Logging the string equivilent of computer choice for debugging
     console.log("Computer plays "+inputStringConverter(computerChoice));
     // Let the player know the computer's choice
-    alert("Computer plays "+inputStringConverter(computerChoice));
+    alert("Computer plays "+inputStringConverter(computerChoice)+",\nYou played "+inputStringConverter(playerChoice));
     // Using winDecider logic to log and send alert of winner    
     let roundResult = winDecider( playerChoice, computerChoice );
     // Let player view the scoreboard
